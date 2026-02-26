@@ -1,0 +1,6 @@
+numpy
+pycocotools >= 2.0.7
+torch
+torchvision
+tqdm
+visdom
