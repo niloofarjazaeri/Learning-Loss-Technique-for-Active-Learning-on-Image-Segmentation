@@ -41,15 +41,15 @@ We use UNet (encoder–decoder with skip connections) as the segmentation backbo
 
 ### Loss prediction module
 Feature maps from multiple UNet layers → Global Average Pooling → FC + ReLU → concatenation → FC → predicted loss (scalar).  
-This follows the Learning Loss formulation originally proposed for task-agnostic active learning. :contentReference[oaicite:1]{index=1}
+This follows the Learning Loss formulation originally proposed for task-agnostic active learning. ```:contentReference[oaicite:1]{index=1}```
 
 ---
 
 ## Dataset
-We validate on **MS COCO 2017** segmentation, using the COCO API for loading images and masks. :contentReference[oaicite:2]{index=2}
+We validate on **MS COCO 2017** segmentation, using the COCO API for loading images and masks. ```:contentReference[oaicite:2]{index=2}```
 
 <p align="center">
-  <img src="paper/figures/coco_samples.png" width="900"/>
+  <img src="paper/figures/coco_samples.jpg" width="900"/>
 </p>
 
 ---
@@ -60,7 +60,7 @@ We validate on **MS COCO 2017** segmentation, using the COCO API for loading ima
 Learning-loss sampling tends to pick **harder** images, leading to higher loss early in cycles (expected), but improves learning efficiency over random sampling.
 
 <p align="center">
-  <img src="paper/figures/loss_curves.png" width="900"/>
+  <img src="paper/figures/loss_curves.jpg" width="900"/>
 </p>
 
 ### Table: Minimum loss values under different λ (from report)
