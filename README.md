@@ -25,7 +25,7 @@ We train:
 Then we query (select) the unlabeled samples with **highest predicted loss**, label them, and retrain in cycles.
 
 <p align="center">
-  <img src="paper/figures/pipeline.png" width="900"/>
+  <img src="paper/figures/pipeline.jpg" width="900"/>
 </p>
 
 **Query rule (pool-based AL):**  
