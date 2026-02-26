@@ -1,0 +1,1 @@
+# Learning-Loss-Technique-for-Active-Learning-on-Image-Segmentation
