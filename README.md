@@ -1,7 +1,7 @@
 # Learning Loss for Active Learning in Image Segmentation
 
 **Farnaz Jazaeri · Niloofar Jazaeri · Yang Xu · Yuhong Guo**  
-[Report (PDF)](paper/report.pdf) · [Code](src/) · [Results](results/)  
+[Report (PDF)](paper/FinalReport.pdf) · [Code](src/) · [Results](results/)  
 
 <p align="center">
   <img src="paper/figures/abstract_card.png" width="900"/>
